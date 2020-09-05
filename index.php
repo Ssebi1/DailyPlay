@@ -61,19 +61,19 @@
 
 			<!--Game 1 -->
 			<a href="game1.php" class="gamebox">
-				<img src="../photos/game1.png" class="game1image" style="margin-top:85px;">
+				<img src="photos/game1.png" class="game1image" style="margin-top:85px;">
 				<div class="title">Quick Writer</div>
 			</a>
 
 			<!--Game 2 -->
 			<a href="game2.php" class="gamebox">
-				<img src="../photos/game2.png" class="game2image">
+				<img src="photos/game2.png" class="game2image">
 				<div class="title">Number Memory</div>
 			</a>
 
 			<!--Game 3 -->
 			<div class="gamebox">
-				<img src="../photos/game3.png" class="game3image">
+				<img src="photos/game3.png" class="game3image">
 				<div class="title">Coming Soon</div>
 
 			</div>

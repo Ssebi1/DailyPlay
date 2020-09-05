@@ -6,7 +6,7 @@
 
         <!--Logo -->
         <div class="logo">
-            <a href="index.php"><img class="logoimg" src="../photos/logo.png"></a>
+            <a href="index.php"><img class="logoimg" src="photos/logo.png"></a>
         </div>
 
         <!--Menu -->
@@ -16,26 +16,23 @@
             </a>
 
             <?php
-                if(isset($_SESSION['username']))
-                {
-                    ?>
-                        <a   a class="login" href="profile.php" style="font-size: 20px;">
-                            <li style="float: right;"><?php echo $_SESSION['username']; ?></li>
-                            <li style="float: right;"><i style="padding: 0px;" class=" fa fa-user"></i></li>
-                        </a>
-                    <?php
-                }
-                else
-                {
-                    ?>
-                        <a   a class="login" href="login.php" style="font-size: 20px;">
-                            <li style="float: right;">Login</li>
-                            <li style="float: right;"><i style="padding: 0px;" class=" fa fa-user"></i></li>
-                        </a>
-                    <?php
-                }
+            if (isset($_SESSION['username'])) {
             ?>
-            
+                <a a class="login" href="profile.php" style="font-size: 20px;">
+                    <li style="float: right;"><?php echo $_SESSION['username']; ?></li>
+                    <li style="float: right;"><i style="padding: 0px;" class=" fa fa-user"></i></li>
+                </a>
+            <?php
+            } else {
+            ?>
+                <a a class="login" href="login.php" style="font-size: 20px;">
+                    <li style="float: right;">Login</li>
+                    <li style="float: right;"><i style="padding: 0px;" class=" fa fa-user"></i></li>
+                </a>
+            <?php
+            }
+            ?>
+
         </ul>
 
     </div>
