@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<!--Head -->
+
+<head>
+
+	<!--Webpage Title -->
+	<title>DailyPlay</title>
+
+	<!--Style File & Fonts -->
+	<?php include "includes/db.php"; ?>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+	<!--Viewport for mobile view -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<!--Body -->
+
+<body>
+
+	<!--Top Bar -->
+	<div class="bar">
+
+		<!--Bar Contents -->
+		<div class="content">
+
+			<!--Logo -->
+			<div class="logo">
+				<a href="index.php"><img class="logoimg" src="photos/logo.png"></a>
+			</div>
+
+			<!--Menu -->
+			<ul class="menu">
+				<a href="index.php">
+					<li class="name" style="margin-left: 20px;font-size: 24px;">DAILY<span
+							style="color: #42be55;">PLAY</span></li>
+				</a>
+
+			</ul>
+
+		</div>
+
+	</div>
+
+	<!--Page Content Except Top Bar -->
+	<div id="page-container">
+
+
+		<!--Top Banner -->
+		<div class="banner">
+
+			<!--Social Buttons -->
+			<ul class="social">
+				<a href="https://www.facebook.com/sebastian.dancau.9/" target="_blank">
+					<li>
+						<div class="fa fa-facebook">
+					</li>
+				</a>
+				<a href="https://twitter.com/sebidancau1701" target="_blank">
+					<li>
+						<div class="fa fa-twitter">
+					</li>
+				</a>
+				<a href="https://github.com/Ssebi1" target="_blank">
+					<li>
+						<div class="fa fa-github">
+					</li>
+				</a>
+			</ul>
+
+		</div>
+
+
+		<!--Games Area -->
+		<div class="games">
+
+			<!--Game 1 -->
+			<a href="game1.html" class="gamebox">
+				<img src="photos/game1.png" class="game1image" style="margin-top:85px;">
+				<div class="title">Quick Writer</div>
+			</a>
+
+			<!--Game 2 -->
+			<a href="game2.html" class="gamebox">
+				<img src="photos/game2.png" class="game2image">
+				<div class="title">Number Memory</div>
+			</a>
+
+			<!--Game 3 -->
+			<div class="gamebox">
+				<img src="photos/game3.png" class="game3image">
+				<div class="title">Coming Soon</div>
+
+			</div>
+
+		</div>
+
+
+
+		<!--Footer -->
+		<div class="footer">
+
+			<!--Footer Text -->
+			<div class="credits">
+				Developed and designed by Ssebi<br>
+				sebidancau@yahoo.com <br>
+				Copyright&copy; 2020
+			</div>
+
+		</div>
+
+	</div>
+
+</body>
+
+</html>
